@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+/*html{
+    background-color: aqua;
+}
+*/
+.words,.container1{
+    background-color: cornflowerblue;
+    height: 200px;
+}
+.box1,.p{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 300px;
+  float: left;
+    margin:8px;
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.box{
+    background-color: darksalmon;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    float: left;
+}
+.container{
+    height: 350px;
+    width: 100%;
+    background-color: gray;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+
+}
+@media screen and (max-width: 800px){
+    .box{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .box{
+        width:250px;
+        margin: 10px;
+    }
+    .container1{
+        margin: 8px;
+
+    }
+}
